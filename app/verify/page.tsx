@@ -80,22 +80,37 @@ function VerifyPageContent() {
 
         {/* Verification Content */}
         <div className="text-center mb-8">
-          <div className="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
-            <CheckCircle className="w-12 h-12 text-[#3B82F6]" />
+          {/* Check icon */}
+          <div className="w-20 h-20 bg-[#e8eaf6] rounded-full flex items-center justify-center mx-auto mb-6">
+            <CheckCircle className="w-10 h-10 text-[#5C6BC0]" strokeWidth={1.5} />
           </div>
-          
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">
-            Verify Your Number
+
+          <h2 className="text-3xl font-bold text-gray-900 mb-3">
+            Thanks for calling!
           </h2>
-          
+          <p className="text-gray-500 text-base leading-relaxed mb-6">
+            Verify your number and we&apos;ll connect you with a solar assistant who can answer your questions right away.
+          </p>
+
+          {/* Info banner */}
+          <div className="flex items-center gap-3 bg-[#eef0fb] rounded-2xl px-5 py-4 mb-8 text-left">
+            <svg className="w-6 h-6 text-[#5C6BC0] shrink-0" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.5"/>
+              <path strokeLinecap="round" d="M12 7v5l3 3" stroke="currentColor" strokeWidth="1.5"/>
+            </svg>
+            <p className="text-[#5C6BC0] font-semibold text-base">
+              A solar assistant is standing by. Verify to connect.
+            </p>
+          </div>
+
           {/* Phone Input Field */}
-          <div className="mb-8">
+          <div className="mb-6">
             <input
               type="tel"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
-              placeholder="Enter resume"
-              className="w-full bg-white rounded-lg p-6 text-3xl font-bold text-gray-900 tracking-wider text-center border-2 border-gray-200 focus:border-[#2563eb] focus:outline-none transition-colors"
+              placeholder="Enter your phone number"
+              className="w-full bg-white rounded-lg p-5 text-2xl font-bold text-gray-900 tracking-wider text-center border-2 border-gray-200 focus:border-[#5C6BC0] focus:outline-none transition-colors"
             />
           </div>
 
@@ -103,10 +118,10 @@ function VerifyPageContent() {
           <button
             onClick={handleConfirm}
             disabled={isRedirecting}
-            className={`w-full py-4 px-6 rounded-lg text-lg font-semibold transition-all ${
+            className={`w-full py-4 px-6 rounded-xl text-lg font-semibold transition-all ${
               isRedirecting
-                ? 'bg-gray-400 cursor-not-allowed'
-                : 'bg-[#3B82F6] hover:bg-[#2563eb] text-white shadow-lg hover:shadow-xl'
+                ? 'bg-gray-400 cursor-not-allowed text-white'
+                : 'bg-[#5C6BC0] hover:bg-[#3949AB] text-white shadow-md hover:shadow-lg'
             }`}
           >
             {isRedirecting ? (
@@ -118,7 +133,7 @@ function VerifyPageContent() {
                 Redirecting...
               </span>
             ) : (
-              "Submit"
+              "Verify and Connect"
             )}
           </button>
         </div>
