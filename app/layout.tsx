@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TrySolarSolutions - Your AI Agent for Solar Education",
-  description: "Meet your personal AI solar advisor. Get instant, unbiased answers to all your solar questions — panels, costs, incentives, and more. No salespeople. No pressure.",
+  title: "Broad Street - Your AI Agent for Gold Education",
+  description: "Meet your personal AI gold advisor. Get instant, unbiased answers to all your gold questions — pricing, storage, coins, bars, purity, and dealers. No salespeople. No pressure.",
 };
 
 export default function RootLayout({

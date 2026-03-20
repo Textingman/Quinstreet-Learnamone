@@ -70,8 +70,8 @@ function VerifyPageContent() {
         {/* Logo/Brand */}
         <div className="flex justify-center mb-8">
           <Image 
-            src="/SolarSolutions.png" 
-            alt="TrySolarSolutions" 
+            src="/Broadstreetlogo.png" 
+            alt="Broad Street" 
             width={320} 
             height={107}
             className="h-32 w-auto"
@@ -81,25 +81,25 @@ function VerifyPageContent() {
         {/* Verification Content */}
         <div className="text-center mb-8">
           {/* Check icon */}
-          <div className="w-20 h-20 bg-[#e8eaf6] rounded-full flex items-center justify-center mx-auto mb-6">
-            <CheckCircle className="w-10 h-10 text-[#5C6BC0]" strokeWidth={1.5} />
+          <div className="w-20 h-20 bg-[#E8EDF7] rounded-full flex items-center justify-center mx-auto mb-6">
+            <CheckCircle className="w-10 h-10 text-[#1F3A6D]" strokeWidth={1.5} />
           </div>
 
           <h2 className="text-3xl font-bold text-gray-900 mb-3">
             Thanks for calling!
           </h2>
           <p className="text-gray-500 text-base leading-relaxed mb-6">
-            Verify your number and we&apos;ll connect you with a solar assistant who can answer your questions right away.
+            Verify your number and we&apos;ll connect you with a gold education advisor who can answer your questions right away.
           </p>
 
           {/* Info banner */}
-          <div className="flex items-center gap-3 bg-[#eef0fb] rounded-2xl px-5 py-4 mb-8 text-left">
-            <svg className="w-6 h-6 text-[#5C6BC0] shrink-0" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+          <div className="flex items-center gap-3 bg-[#EEF2FF] rounded-2xl px-5 py-4 mb-8 text-left">
+            <svg className="w-6 h-6 text-[#1F3A6D] shrink-0" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
               <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.5"/>
               <path strokeLinecap="round" d="M12 7v5l3 3" stroke="currentColor" strokeWidth="1.5"/>
             </svg>
-            <p className="text-[#5C6BC0] font-semibold text-base">
-              A solar assistant is standing by. Verify to connect.
+            <p className="text-[#1F3A6D] font-semibold text-base">
+              A gold advisor is standing by. Verify to connect.
             </p>
           </div>
 
@@ -110,7 +110,7 @@ function VerifyPageContent() {
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               placeholder="Enter your phone number"
-              className="w-full bg-white rounded-lg p-5 text-2xl font-bold text-gray-900 tracking-wider text-center border-2 border-gray-200 focus:border-[#5C6BC0] focus:outline-none transition-colors"
+              className="w-full bg-white rounded-lg p-5 text-2xl font-bold text-gray-900 tracking-wider text-center border-2 border-gray-200 focus:border-[#1F3A6D] focus:outline-none transition-colors"
             />
           </div>
 
@@ -121,7 +121,7 @@ function VerifyPageContent() {
             className={`w-full py-4 px-6 rounded-xl text-lg font-semibold transition-all ${
               isRedirecting
                 ? 'bg-gray-400 cursor-not-allowed text-white'
-                : 'bg-[#5C6BC0] hover:bg-[#3949AB] text-white shadow-md hover:shadow-lg'
+                : 'bg-[#1F3A6D] hover:bg-[#C62828] text-white shadow-md hover:shadow-lg'
             }`}
           >
             {isRedirecting ? (
@@ -141,7 +141,7 @@ function VerifyPageContent() {
         {/* Footer */}
         <div className="text-center pt-6 border-t border-gray-200">
           <p className="text-xs text-gray-500">
-            Secured by TrySolarSolutions
+            Secured by Broad Street
           </p>
         </div>
       </div>
@@ -154,7 +154,7 @@ export default function VerifyPage() {
     <Suspense fallback={
       <div className="min-h-screen bg-white flex items-center justify-center">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#2563eb] mx-auto"></div>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#1F3A6D] mx-auto"></div>
           <p className="mt-4 text-gray-600">Loading...</p>
         </div>
       </div>

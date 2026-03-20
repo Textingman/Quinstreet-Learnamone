@@ -11,8 +11,8 @@ export default function PrivacyPage() {
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
                 <Image 
-                  src="/SolarSolutions.png" 
-                  alt="TrySolarSolutions" 
+                  src="/Broadstreetlogo.png" 
+                  alt="Broad Street" 
                   width={500} 
                   height={167}
                   className="h-32 w-auto"
@@ -27,13 +27,13 @@ export default function PrivacyPage() {
                 <Link href="/about" style={{ color: '#6B7280' }} className="hover:opacity-80 px-3 py-2 rounded-md text-sm font-medium">
                   About
                 </Link>
-                <Link href="/privacy" style={{ color: '#1E6FA8' }} className="hover:opacity-80 px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/privacy" style={{ color: '#1F3A6D' }} className="hover:opacity-80 px-3 py-2 rounded-md text-sm font-medium">
                   Privacy
                 </Link>
                 <Link href="/terms" style={{ color: '#6B7280' }} className="hover:opacity-80 px-3 py-2 rounded-md text-sm font-medium">
                   Terms
                 </Link>
-                <Link href="/signup" className="text-white px-4 py-2 rounded-md text-sm font-medium" style={{ backgroundColor: '#F59E0B' }}>
+                <Link href="/signup" className="text-white px-4 py-2 rounded-md text-sm font-medium" style={{ backgroundColor: '#C62828' }}>
                   Get Started
                 </Link>
               </div>
@@ -58,7 +58,7 @@ export default function PrivacyPage() {
           
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>1. Introduction</h2>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            TrySolarSolutions ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our solar assessment and energy coaching service and website.
+            Broad Street (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our gold education and investment advisory service and website.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>2. Information We Collect</h2>
@@ -88,13 +88,13 @@ export default function PrivacyPage() {
 
           <h3 className="text-xl font-semibold mt-6 mb-3" style={{ color: '#1F2937' }}>2.4 Mobile Information Sharing</h3>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            <strong>No mobile information will be shared or sold to third parties for marketing purposes.</strong> We are committed to protecting your mobile information and will only use it for the purposes outlined in this Privacy Policy, such as providing our solar assessment service and communicating with you about your account.
+            <strong>No mobile information will be shared or sold to third parties for marketing purposes.</strong> We are committed to protecting your mobile information and will only use it for the purposes outlined in this Privacy Policy, such as providing our gold education service and communicating with you about your account.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>3. How We Use Your Information</h2>
           <p className="mb-4" style={{ color: '#6B7280' }}>We use the information we collect to:</p>
           <ul className="list-disc pl-6 mb-6 space-y-2" style={{ color: '#6B7280' }}>
-            <li>Provide and maintain our solar assessment service</li>
+            <li>Provide and maintain our gold education service</li>
             <li>Process your transactions and manage your account</li>
             <li>Send you service-related communications</li>
             <li>Improve our service and develop new features</li>
@@ -153,7 +153,7 @@ export default function PrivacyPage() {
             <li><strong>Opt-out:</strong> Opt out of marketing communications</li>
           </ul>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            To exercise these rights, please contact us at <a href="mailto:privacy@trysolarsolutions.com" className="font-medium" style={{ color: '#2F8FCB' }}>privacy@trysolarsolutions.com</a>.
+            To exercise these rights, please contact us at <a href="mailto:privacy@learnbroadstreet.com" className="font-medium" style={{ color: '#2E5B9A' }}>privacy@learnbroadstreet.com</a>.
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>8. Cookies and Tracking Technologies</h2>
@@ -186,9 +186,9 @@ export default function PrivacyPage() {
             If you have any questions about this Privacy Policy or our privacy practices, please contact us:
           </p>
           <div className="rounded-lg p-6 mb-8" style={{ backgroundColor: '#FFFFFF', border: '1px solid #E5E7EB' }}>
-            <p className="mb-2" style={{ color: '#6B7280' }}><strong>Email:</strong> <a href="mailto:privacy@trysolarsolutions.com" className="font-medium" style={{ color: '#2F8FCB' }}>privacy@trysolarsolutions.com</a></p>
-            <p className="mb-2" style={{ color: '#6B7280' }}><strong>Support:</strong> <a href="mailto:support@trysolarsolutions.com" className="font-medium" style={{ color: '#2F8FCB' }}>support@trysolarsolutions.com</a></p>
-            <p style={{ color: '#6B7280' }}><strong>Website:</strong> <a href="/" className="font-medium" style={{ color: '#2F8FCB' }}>https://trysolarsolutions.com</a></p>
+            <p className="mb-2" style={{ color: '#6B7280' }}><strong>Email:</strong> <a href="mailto:privacy@learnbroadstreet.com" className="font-medium" style={{ color: '#2E5B9A' }}>privacy@learnbroadstreet.com</a></p>
+            <p className="mb-2" style={{ color: '#6B7280' }}><strong>Support:</strong> <a href="mailto:support@learnbroadstreet.com" className="font-medium" style={{ color: '#2E5B9A' }}>support@learnbroadstreet.com</a></p>
+            <p style={{ color: '#6B7280' }}><strong>Website:</strong> <a href="/" className="font-medium" style={{ color: '#2E5B9A' }}>https://learnbroadstreet.com</a></p>
           </div>
 
         </div>
@@ -199,9 +199,9 @@ export default function PrivacyPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">TrySolarSolutions</h3>
+              <h3 className="text-xl font-bold mb-4">Broad Street</h3>
               <p style={{ color: '#9CA3AF' }}>
-                Unbiased AI-powered solar education for homeowners.
+                Unbiased AI-powered gold education for investors.
               </p>
             </div>
             <div>
@@ -237,12 +237,12 @@ export default function PrivacyPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p style={{ color: '#9CA3AF' }}>
-                support@trysolarsolutions.com
+                support@learnbroadstreet.com
               </p>
             </div>
           </div>
           <div className="mt-8 pt-8 text-center" style={{ borderTop: '1px solid #374151', color: '#9CA3AF' }}>
-            <p>&copy; 2025 TrySolarSolutions. All rights reserved.</p>
+            <p>&copy; 2025 Broad Street. All rights reserved.</p>
           </div>
         </div>
       </footer>

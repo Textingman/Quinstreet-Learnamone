@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Bot, ShieldCheck, BookOpen, Zap } from 'lucide-react';
+import { Bot, ShieldCheck, BookOpen } from 'lucide-react';
 
 export default function AboutPage() {
   return (
@@ -12,8 +12,8 @@ export default function AboutPage() {
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
                 <Image 
-                  src="/SolarSolutions.png" 
-                  alt="TrySolarSolutions" 
+                  src="/Broadstreetlogo.png" 
+                  alt="Broad Street" 
                   width={500} 
                   height={167}
                   className="h-32 w-auto"
@@ -25,7 +25,7 @@ export default function AboutPage() {
                 <Link href="/" style={{ color: '#6B7280' }} className="hover:opacity-80 px-3 py-2 rounded-md text-sm font-medium">
                   Home
                 </Link>
-                <Link href="/about" style={{ color: '#1E6FA8' }} className="hover:opacity-80 px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/about" style={{ color: '#1F3A6D' }} className="hover:opacity-80 px-3 py-2 rounded-md text-sm font-medium">
                   About
                 </Link>
                 <Link href="/privacy" style={{ color: '#6B7280' }} className="hover:opacity-80 px-3 py-2 rounded-md text-sm font-medium">
@@ -34,7 +34,7 @@ export default function AboutPage() {
                 <Link href="/terms" style={{ color: '#6B7280' }} className="hover:opacity-80 px-3 py-2 rounded-md text-sm font-medium">
                   Terms
                 </Link>
-                <Link href="/signup" className="text-white px-4 py-2 rounded-md text-sm font-medium" style={{ backgroundColor: '#F59E0B' }}>
+                <Link href="/signup" className="text-white px-4 py-2 rounded-md text-sm font-medium" style={{ backgroundColor: '#C62828' }}>
                   Talk to Our AI
                 </Link>
               </div>
@@ -47,7 +47,7 @@ export default function AboutPage() {
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold mb-6" style={{ backgroundColor: '#FEF3C7', color: '#F59E0B' }}>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold mb-6" style={{ backgroundColor: '#EEF2FF', color: '#C62828' }}>
               <Bot className="w-4 h-4" />
               AI-Powered — 100% Independent
             </div>
@@ -55,7 +55,7 @@ export default function AboutPage() {
               An AI Agent Built to Educate,<br />Not to Sell
             </h1>
             <p className="text-xl max-w-3xl mx-auto" style={{ color: '#6B7280' }}>
-              TrySolarSolutions is an AI-powered platform that guides homeowners through the solar decision process with honest, unbiased education. We're not a solar company. We're your independent advisor.
+              Broad Street is an AI-powered platform that guides people through the gold buying process with honest, unbiased education. We&apos;re not a gold dealer. We&apos;re your independent advisor.
             </p>
           </div>
         </div>
@@ -67,47 +67,47 @@ export default function AboutPage() {
           <div>
             <h2 className="text-4xl font-bold mb-6" style={{ color: '#1F2937' }}>Why We Built This</h2>
             <p className="text-lg mb-4" style={{ color: '#6B7280' }}>
-              The solar industry is full of salespeople, but short on educators. Homeowners are bombarded with confusing quotes, high-pressure tactics, and conflicting information — and most don't know who to trust.
+              The gold and precious metals industry is full of dealers, but short on educators. Buyers are bombarded with confusing offers, high-pressure tactics, and conflicting information — and most don&apos;t know who to trust.
             </p>
             <p className="text-lg mb-4" style={{ color: '#6B7280' }}>
-              We built an AI agent that acts as your personal solar advisor — one that has no financial incentive to push you toward any particular product or installer. It simply helps you understand your options and make the best decision for your home.
+              We built an AI agent that acts as your personal gold advisor — one that has no financial incentive to push you toward any particular product or dealer. It simply helps you understand your options and make the best decision for your needs.
             </p>
             <p className="text-lg" style={{ color: '#6B7280' }}>
-              Think of it as having a knowledgeable friend who happens to know everything about solar — available 24/7, completely free, and always on your side.
+              Think of it as having a knowledgeable friend who happens to know everything about gold — available 24/7, completely free, and always on your side.
             </p>
           </div>
           <div className="rounded-2xl p-8 border" style={{ backgroundColor: '#FFFFFF', borderColor: '#E5E7EB' }}>
             <div className="space-y-6">
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#FEF3C7' }}>
-                  <Bot className="w-5 h-5" style={{ color: '#F59E0B' }} />
+                <div className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#EEF2FF' }}>
+                  <Bot className="w-5 h-5" style={{ color: '#C62828' }} />
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold mb-1" style={{ color: '#1F2937' }}>AI-Powered, Always Available</h3>
                   <p style={{ color: '#6B7280' }}>
-                    Our AI agent is available 24/7 to answer your solar questions instantly — no waiting, no appointments.
+                    Our AI agent is available 24/7 to answer your gold questions instantly — no waiting, no appointments.
                   </p>
                 </div>
               </div>
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#DBEAFE' }}>
-                  <ShieldCheck className="w-5 h-5" style={{ color: '#2F8FCB' }} />
+                <div className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#E8EDF7' }}>
+                  <ShieldCheck className="w-5 h-5" style={{ color: '#2E5B9A' }} />
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold mb-1" style={{ color: '#1F2937' }}>Zero Conflicts of Interest</h3>
                   <p style={{ color: '#6B7280' }}>
-                    We receive no commissions or referral fees from solar companies. Our AI's only job is to help you.
+                    We receive no commissions or referral fees from gold dealers. Our AI&apos;s only job is to help you.
                   </p>
                 </div>
               </div>
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#FEF3C7' }}>
-                  <BookOpen className="w-5 h-5" style={{ color: '#F59E0B' }} />
+                <div className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: '#EEF2FF' }}>
+                  <BookOpen className="w-5 h-5" style={{ color: '#C62828' }} />
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold mb-1" style={{ color: '#1F2937' }}>Education First</h3>
                   <p style={{ color: '#6B7280' }}>
-                    We believe informed homeowners make better decisions. Our AI educates before you ever talk to an installer.
+                    We believe informed buyers make better decisions. Our AI educates before you ever talk to a dealer.
                   </p>
                 </div>
               </div>
@@ -122,48 +122,48 @@ export default function AboutPage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4" style={{ color: '#1F2937' }}>What Our AI Agent Covers</h2>
             <p className="text-xl" style={{ color: '#6B7280' }}>
-              Comprehensive solar education tailored to your home and situation
+              Comprehensive gold education tailored to your needs and situation
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center p-6 rounded-xl border" style={{ borderColor: '#E5E7EB' }}>
-              <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#FEF3C7' }}>
-                <span className="text-xl">☀️</span>
+              <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#EEF2FF' }}>
+                <span className="text-xl">🥇</span>
               </div>
-              <h3 className="text-lg font-semibold mb-2" style={{ color: '#1F2937' }}>Solar Basics</h3>
+              <h3 className="text-lg font-semibold mb-2" style={{ color: '#1F2937' }}>Gold Basics</h3>
               <p style={{ color: '#6B7280' }}>
-                How solar works, panel types, system sizing, and what to expect from installation.
+                How gold markets work, types of gold products, spot pricing, and what to expect when buying.
               </p>
             </div>
 
             <div className="text-center p-6 rounded-xl border" style={{ borderColor: '#E5E7EB' }}>
-              <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#DBEAFE' }}>
+              <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#E8EDF7' }}>
                 <span className="text-xl">💰</span>
               </div>
-              <h3 className="text-lg font-semibold mb-2" style={{ color: '#1F2937' }}>Costs & Incentives</h3>
+              <h3 className="text-lg font-semibold mb-2" style={{ color: '#1F2937' }}>Pricing & Premiums</h3>
               <p style={{ color: '#6B7280' }}>
-                Fair pricing, federal tax credits, state rebates, and financing options explained clearly.
+                Understanding spot price, dealer premiums, fair pricing benchmarks, and how to avoid overpaying.
               </p>
             </div>
 
             <div className="text-center p-6 rounded-xl border" style={{ borderColor: '#E5E7EB' }}>
-              <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#FEF3C7' }}>
-                <span className="text-xl">📋</span>
+              <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#EEF2FF' }}>
+                <span className="text-xl">🏦</span>
               </div>
-              <h3 className="text-lg font-semibold mb-2" style={{ color: '#1F2937' }}>Quote Evaluation</h3>
+              <h3 className="text-lg font-semibold mb-2" style={{ color: '#1F2937' }}>Storage & Security</h3>
               <p style={{ color: '#6B7280' }}>
-                How to read and compare installer quotes, spot red flags, and negotiate better deals.
+                Home safes, bank vaults, third-party storage, and insurance options explained clearly.
               </p>
             </div>
 
             <div className="text-center p-6 rounded-xl border" style={{ borderColor: '#E5E7EB' }}>
-              <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#DBEAFE' }}>
-                <span className="text-xl">🔋</span>
+              <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4" style={{ backgroundColor: '#E8EDF7' }}>
+                <span className="text-xl">📈</span>
               </div>
-              <h3 className="text-lg font-semibold mb-2" style={{ color: '#1F2937' }}>Battery & Storage</h3>
+              <h3 className="text-lg font-semibold mb-2" style={{ color: '#1F2937' }}>Purity & Products</h3>
               <p style={{ color: '#6B7280' }}>
-                Whether battery storage makes sense for your home, costs, and top options available.
+                Understanding gold purity (karats), product types, hallmarks, and how to verify authenticity.
               </p>
             </div>
           </div>
@@ -171,19 +171,19 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20" style={{ background: 'linear-gradient(135deg, #F59E0B 0%, #2F8FCB 100%)' }}>
+      <section className="py-20" style={{ background: 'linear-gradient(135deg, #1F3A6D 0%, #C62828 100%)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Bot className="w-16 h-16 text-white mx-auto mb-6" />
           <h2 className="text-4xl font-bold text-white mb-6">
-            Ready to Talk to Your AI Solar Advisor?
+            Ready to Talk to Your AI Gold Advisor?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto" style={{ color: 'rgba(255,255,255,0.9)' }}>
-            Get instant, unbiased answers to all your solar questions — completely free, with zero sales pressure.
+            Get instant, unbiased answers to all your gold questions — completely free, with zero sales pressure.
           </p>
           <Link
             href="/signup"
             className="inline-block px-8 py-4 text-lg font-semibold rounded-lg shadow-lg transition-opacity hover:opacity-90"
-            style={{ backgroundColor: '#FFFFFF', color: '#F59E0B' }}
+            style={{ backgroundColor: '#FFFFFF', color: '#C62828' }}
           >
             Talk to the AI Agent — Free
           </Link>
@@ -195,9 +195,9 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">TrySolarSolutions</h3>
+              <h3 className="text-xl font-bold mb-4">Broad Street</h3>
               <p style={{ color: '#9CA3AF' }}>
-                Your AI agent for unbiased solar education.
+                Your AI agent for unbiased gold education.
               </p>
             </div>
             <div>
@@ -233,12 +233,12 @@ export default function AboutPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p style={{ color: '#9CA3AF' }}>
-                support@trysolarsolutions.com
+                support@learnbroadstreet.com
               </p>
             </div>
           </div>
           <div className="mt-8 pt-8 text-center" style={{ borderTop: '1px solid #374151', color: '#9CA3AF' }}>
-            <p>&copy; 2025 TrySolarSolutions. All rights reserved.</p>
+            <p>&copy; 2025 Broad Street. All rights reserved.</p>
           </div>
         </div>
       </footer>

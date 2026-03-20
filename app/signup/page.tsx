@@ -44,8 +44,8 @@ export default function SignupPage() {
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
                 <Image 
-                  src="/SolarSolutions.png" 
-                  alt="TrySolarSolutions" 
+                  src="/Broadstreetlogo.png" 
+                  alt="Broad Street" 
                   width={500} 
                   height={167}
                   className="h-32 w-auto"
@@ -66,7 +66,7 @@ export default function SignupPage() {
                 <Link href="/terms" style={{ color: '#6B7280' }} className="hover:opacity-80 px-3 py-2 rounded-md text-sm font-medium">
                   Terms
                 </Link>
-                <Link href="/signup" className="text-white px-4 py-2 rounded-md text-sm font-medium" style={{ backgroundColor: '#F59E0B' }}>
+                <Link href="/signup" className="text-white px-4 py-2 rounded-md text-sm font-medium" style={{ backgroundColor: '#C62828' }}>
                   Get Started
                 </Link>
               </div>
@@ -80,10 +80,10 @@ export default function SignupPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl font-extrabold mb-4" style={{ color: '#1F2937' }}>
-              Talk to Your AI Solar Advisor — Free
+              Talk to Your AI Gold Advisor — Free
             </h1>
             <p className="text-xl max-w-2xl mx-auto" style={{ color: '#6B7280' }}>
-              Tell us about your home and our AI agent will deliver personalized, unbiased solar education — no sales calls, no pressure, just honest answers.
+              Tell us what you want to learn about gold and our AI agent will deliver personalized, unbiased education — no sales calls, no pressure, just honest answers.
             </p>
           </div>
         </div>
@@ -106,7 +106,7 @@ export default function SignupPage() {
               <Link
                 href="/"
                 className="inline-block px-6 py-3 text-white font-semibold rounded-lg transition-opacity hover:opacity-90"
-                style={{ backgroundColor: '#F59E0B' }}
+                style={{ backgroundColor: '#C62828' }}
               >
                 Return to Home
               </Link>
@@ -114,9 +114,9 @@ export default function SignupPage() {
           ) : (
             <>
               <div className="mb-8">
-                <h2 className="text-2xl font-bold mb-2" style={{ color: '#1F2937' }}>Connect with Your AI Solar Agent</h2>
+                <h2 className="text-2xl font-bold mb-2" style={{ color: '#1F2937' }}>Connect with Your AI Gold Agent</h2>
                 <p style={{ color: '#6B7280' }}>
-                  Fill out this form and our AI agent will provide you with unbiased, personalized solar education — completely free. No salespeople will contact you.
+                  Fill out this form and our AI agent will provide you with unbiased, personalized gold education — completely free. No salespeople will contact you.
                 </p>
               </div>
 
@@ -167,10 +167,10 @@ export default function SignupPage() {
                   </div>
                 </div>
 
-                {/* Company Field */}
+                {/* Location Field */}
                 <div>
                   <label htmlFor="company" className="block text-sm font-medium mb-2" style={{ color: '#1F2937' }}>
-                    Home Address / City *
+                    City / State *
                   </label>
                   <div className="relative">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -215,7 +215,7 @@ export default function SignupPage() {
                 {/* Message Field */}
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium mb-2" style={{ color: '#1F2937' }}>
-                    Tell Us About Your Solar Questions (Optional)
+                    Tell Us About Your Gold Questions (Optional)
                   </label>
                   <textarea
                     id="message"
@@ -225,7 +225,7 @@ export default function SignupPage() {
                     onChange={handleChange}
                     className="block w-full px-3 py-3 rounded-lg text-gray-900"
                     style={{ border: '1px solid #E5E7EB' }}
-                    placeholder="Tell us about your home, energy usage, or any solar questions you have..."
+                    placeholder="Tell us about your experience with gold, what you want to learn, or any questions you have..."
                   />
                 </div>
 
@@ -240,10 +240,10 @@ export default function SignupPage() {
                         checked={accountNotifications}
                         onChange={(e) => setAccountNotifications(e.target.checked)}
                         className="mt-1 h-4 w-4 rounded flex-shrink-0"
-                        style={{ accentColor: '#F59E0B' }}
+                        style={{ accentColor: '#C62828' }}
                       />
                       <label htmlFor="sms-consent" className="ml-3 text-sm leading-relaxed">
-                        By checking this box and submitting this form, you agree to receive account notification & customer care text messages from Solar Solutions. I understand I may opt out of SMS communication by replying 'STOP'. Reply HELP or email support@trysolarsolutions.com for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form. All messages will be handled by Solar Solutions.
+                        By checking this box and submitting this form, you agree to receive account notification & customer care text messages from Broad Street. I understand I may opt out of SMS communication by replying &apos;STOP&apos;. Reply HELP or email support@learnbroadstreet.com for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form. All messages will be handled by Broad Street.
                       </label>
                     </div>
                   </div>
@@ -255,15 +255,15 @@ export default function SignupPage() {
                         type="checkbox"
                         id="terms-consent"
                         className="mt-1 h-4 w-4 rounded flex-shrink-0"
-                        style={{ accentColor: '#F59E0B' }}
+                        style={{ accentColor: '#C62828' }}
                       />
                       <label htmlFor="terms-consent" className="ml-3 text-sm leading-relaxed" style={{ color: '#1F2937' }}>
                         I agree with the{' '}
-                        <Link href="/terms" className="font-medium underline" style={{ color: '#2F8FCB' }}>
+                        <Link href="/terms" className="font-medium underline" style={{ color: '#2E5B9A' }}>
                           Terms & Conditions
                         </Link>{' '}
                         and{' '}
-                        <Link href="/privacy" className="font-medium underline" style={{ color: '#2F8FCB' }}>
+                        <Link href="/privacy" className="font-medium underline" style={{ color: '#2E5B9A' }}>
                           Privacy Policy
                         </Link>
                         .
@@ -277,7 +277,7 @@ export default function SignupPage() {
                   type="submit"
                   disabled={isSubmitting}
                   className="w-full py-4 px-6 rounded-lg text-lg font-semibold transition-opacity text-white"
-                  style={{ backgroundColor: isSubmitting ? '#9CA3AF' : '#F59E0B', cursor: isSubmitting ? 'not-allowed' : 'pointer' }}
+                  style={{ backgroundColor: isSubmitting ? '#9CA3AF' : '#C62828', cursor: isSubmitting ? 'not-allowed' : 'pointer' }}
                 >
                   {isSubmitting ? (
                     <span className="flex items-center justify-center">
@@ -302,9 +302,9 @@ export default function SignupPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">TrySolarSolutions</h3>
+              <h3 className="text-xl font-bold mb-4">Broad Street</h3>
               <p style={{ color: '#9CA3AF' }}>
-                Unbiased AI-powered solar education for homeowners.
+                Unbiased AI-powered gold education for buyers.
               </p>
             </div>
             <div>
@@ -340,12 +340,12 @@ export default function SignupPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p style={{ color: '#9CA3AF' }}>
-                support@trysolarsolutions.com
+                support@learnbroadstreet.com
               </p>
             </div>
           </div>
           <div className="mt-8 pt-8 text-center" style={{ borderTop: '1px solid #374151', color: '#9CA3AF' }}>
-            <p>&copy; 2025 TrySolarSolutions. All rights reserved.</p>
+            <p>&copy; 2025 Broad Street. All rights reserved.</p>
           </div>
         </div>
       </footer>
