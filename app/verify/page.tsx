@@ -8,16 +8,13 @@ import { CheckCircle } from 'lucide-react';
 function VerifyPageContent() {
   const searchParams = useSearchParams();
   const [phone, setPhone] = useState<string>('');
-  const [error, setError] = useState<string>('');
   const [isRedirecting, setIsRedirecting] = useState(false);
 
   useEffect(() => {
     const phoneParam = searchParams.get('phone');
-    if (!phoneParam) {
-      setError('Invalid verification link. Phone number is missing.');
-      return;
+    if (phoneParam) {
+      setPhone(phoneParam);
     }
-    setPhone(phoneParam);
   }, [searchParams]);
 
   const handleConfirm = () => {
@@ -35,7 +32,6 @@ function VerifyPageContent() {
       const redirectUrl = `${destination}?${params.toString()}`;
       window.location.href = redirectUrl;
     } else {
-      setError('Invalid verification link. Destination is missing.');
       setIsRedirecting(false);
     }
   };
@@ -66,11 +62,6 @@ function VerifyPageContent() {
         <h2 className="text-2xl font-bold mb-6" style={{ color: '#1F2937' }}>
           Verify Your Number
         </h2>
-
-        {/* Error message */}
-        {error && (
-          <p className="text-red-500 text-sm mb-4">{error}</p>
-        )}
 
         {/* Phone Input */}
         <div className="mb-6">
