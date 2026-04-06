@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Broad Street - Your AI Agent for Gold Education",
-  description: "Meet your personal AI gold advisor. Get instant, unbiased answers to all your gold questions — pricing, storage, coins, bars, purity, and dealers. No salespeople. No pressure.",
+  title: "LearnAmone - Your AI Agent for Financial Education",
+  description: "Meet your personal AI financial advisor. Get instant, unbiased answers to all your personal finance questions — budgeting, investing, saving, debt, and more. No salespeople. No pressure.",
 };
 
 export default function RootLayout({

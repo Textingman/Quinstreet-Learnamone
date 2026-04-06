@@ -44,7 +44,7 @@ function VerifyPageContent() {
         <div className="flex justify-center mb-6">
           <Image
             src="/Broadstreetlogo.png"
-            alt="Broad Street"
+            alt="LearnAmone"
             width={200}
             height={67}
             className="h-16 w-auto"
@@ -53,13 +53,13 @@ function VerifyPageContent() {
 
         {/* Check Icon */}
         <div className="flex justify-center mb-6">
-          <div className="w-20 h-20 rounded-full flex items-center justify-center" style={{ backgroundColor: '#E8EDF7' }}>
-            <CheckCircle className="w-10 h-10" style={{ color: '#1F3A6D' }} strokeWidth={1.5} />
+          <div className="w-20 h-20 rounded-full flex items-center justify-center" style={{ backgroundColor: '#F5F5F5' }}>
+            <CheckCircle className="w-10 h-10" style={{ color: '#000000' }} strokeWidth={1.5} />
           </div>
         </div>
 
         {/* Heading */}
-        <h2 className="text-2xl font-bold mb-6" style={{ color: '#1F2937' }}>
+        <h2 className="text-2xl font-bold mb-6" style={{ color: '#000000' }}>
           Verify Your Number
         </h2>
 
@@ -72,8 +72,8 @@ function VerifyPageContent() {
             placeholder="Enter your phone number"
             className="w-full rounded-xl p-4 text-2xl font-bold text-center tracking-wider focus:outline-none"
             style={{
-              border: '1.5px solid #E5E7EB',
-              color: '#1F2937',
+              border: '1.5px solid #DDDDDD',
+              color: '#000000',
               backgroundColor: '#FFFFFF',
             }}
           />
@@ -85,7 +85,7 @@ function VerifyPageContent() {
           disabled={isRedirecting}
           className="w-full py-4 rounded-xl text-lg font-semibold text-white transition-all"
           style={{
-            backgroundColor: isRedirecting ? '#9CA3AF' : '#C62828',
+            backgroundColor: isRedirecting ? '#888888' : '#000000',
             cursor: isRedirecting ? 'not-allowed' : 'pointer',
           }}
         >
@@ -103,8 +103,8 @@ function VerifyPageContent() {
         </button>
 
         {/* Footer */}
-        <p className="mt-6 text-xs" style={{ color: '#9CA3AF' }}>
-          Secured by Broad Street
+        <p className="mt-6 text-xs" style={{ color: '#888888' }}>
+          Secured by LearnAmone
         </p>
       </div>
     </div>
@@ -116,8 +116,8 @@ export default function VerifyPage() {
     <Suspense fallback={
       <div className="min-h-screen flex items-center justify-center" style={{ backgroundColor: '#F5F7FA' }}>
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 mx-auto" style={{ borderColor: '#1F3A6D' }}></div>
-          <p className="mt-4" style={{ color: '#6B7280' }}>Loading...</p>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 mx-auto" style={{ borderColor: '#000000' }}></div>
+          <p className="mt-4" style={{ color: '#555555' }}>Loading...</p>
         </div>
       </div>
     }>
