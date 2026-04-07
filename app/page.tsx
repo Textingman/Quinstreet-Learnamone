@@ -276,8 +276,8 @@ export default function HomePage() {
                 support@learnamone.com
               </p>
               <p className="mt-2" style={{ color: '#888888' }}>
-                1166 E Warner Rd<br />
-                Gilbert, AZ 85296<br />
+                950 Tower Lane, Suite 1200<br />
+                Foster City, California 94404<br />
                 United States
               </p>
             </div>
